@@ -1,9 +1,9 @@
 import random
 
 def get_lucky_number(amount: int) -> tuple[int]:
-    a = []
+    numbers = []
     for i in range(amount):
-        a.append(random.randint(1, 100))
-    return tuple(a)
+        numbers.append(random.randint(1, 100))
+    return tuple(numbers)
 
-print(get_lucky_number(10))
+
